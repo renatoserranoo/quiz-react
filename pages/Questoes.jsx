@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './Questoes.css'
 
-const url = 'https://quiz-react-renatoserranoos-projects.vercel.app/'
+const url = 'http://localhost:3000/questoes'
 
 const Questoes = () => {
   const [respostasSelecionadas, setRespostasSelecionadas] = useState(Array(0).fill(null));

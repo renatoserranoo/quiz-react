@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import './PostQuestoes.css'
 
-const url = "https://quiz-react-renatoserranoos-projects.vercel.app/criar"
+const url = "http://localhost:3000/criar"
 
 const PostQuestoes = () => {
 
